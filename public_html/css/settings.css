@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../pic/ccc.jpg');
+  }
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c0f01;
+    padding: 20px 30px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Times New Roman";
+    color: #020e1b;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d5dd4;
+  }
+  
+  .check-password {
+    /* Existing styles */
+    background-color: #f0f0f0;  
+    border: 2px solid #333;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    margin: 15px auto;  
+    
+    /* New styles for centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  .image-top img, .image-middle img, .image-bot1 img, .image-bot2 img {
+    width:10vw;
+    height:auto;
+    opacity: 0.5;
+}
+
+.image-top, .image-middle, .image-bot1, .image-bot2 {
+    position: absolute;
+    z-index: 1;
+}
+
+.image-top {
+    top:20%;
+    right: 15%;
+}
+
+.image-middle {
+    top:30%;
+    left: 10%;
+}
+
+.image-bot1 {
+    bottom: 20%;
+    right: 15%;
+}
+
+
+.image-bot2 {
+  bottom: 0;
+  left: 15%;
+}
+
+
+

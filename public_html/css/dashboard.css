@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../pic/ddd.jpg');
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #25010c;
+    padding: 20px 30px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Times New Roman";
+    color: #020e1b;
+  }
+
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .google-calendar-card {
+    /* Existing styles */
+    background-color: #f0f0f0;  
+    border: 2px solid #333;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    margin: 15px auto;  
+    
+    /* New styles for centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
